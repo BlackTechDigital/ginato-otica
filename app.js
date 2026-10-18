@@ -1,5 +1,5 @@
 // Preencha apenas com dados oficiais aprovados. WhatsApp: país + DDD + número, só dígitos.
-const CONFIG={whatsapp:'',mapsUrl:'',address:'',hours:''};
+const CONFIG={whatsapp:'553599065281',mapsUrl:'',address:'',hours:''};
 const products=[
 {id:1,name:'Horizonte',type:'Óculos de grau',gender:'Unissex',style:'Moderno',color:'#2361a3',colorName:'Azul translúcido',desc:'Linhas retangulares, uma perspectiva contemporânea.'},
 {id:2,name:'Essência',type:'Óculos de grau',gender:'Unissex',style:'Minimalista',color:'#b4bec6',colorName:'Prata',desc:'Contornos leves. A elegância do essencial.'},
