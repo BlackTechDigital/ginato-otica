@@ -3,3 +3,19 @@
 @media(min-width:1600px){.section{padding-left:max(7%,calc((100vw - 1400px)/2));padding-right:max(7%,calc((100vw - 1400px)/2))}}@media(max-width:1000px){nav{gap:18px}.products{grid-template-columns:repeat(2,1fr)}.section{padding:80px 6%}.about{gap:5%}.about-art{min-height:360px}.catalog-tools{flex-wrap:wrap}.editorial-copy{padding:70px 10%}.footer-top{flex-wrap:wrap}}@media(max-width:700px){header{height:85px;padding:0 6%}.logo{font-size:30px}.logo span{font-size:7px}#menu{display:block}nav{display:none;position:absolute;top:85px;left:0;right:0;background:white;color:var(--navy);padding:30px 7%;box-shadow:0 20px 30px #00347720}nav.open{display:flex;flex-direction:column;align-items:stretch;gap:25px}header.scrolled nav{top:80px}.hero{height:800px;min-height:680px;max-height:1000px}.hero>img{object-position:63% top}.hero-shade{background:linear-gradient(0deg,#002c72 0%,#003477bd 33%,#00347705 80%)}.hero-content{top:auto;bottom:100px;left:7%;right:6%}h1{font-size:57px;letter-spacing:-2.5px}.hero p{font-size:13px;max-width:320px}.hero p br{display:none}.eyebrow{font-size:8px;margin-bottom:20px}.actions{gap:20px;flex-wrap:wrap}.button{padding:16px 20px;font-size:11px}.hero-bottom{font-size:8px}.hero-bottom>span{display:none}.ribbon{gap:16px;font-size:7px;padding:22px 12px;letter-spacing:1px}.ribbon i{font-size:12px}.ribbon span:last-child{display:none}.section{padding:65px 6%}.about{grid-template-columns:1fr;gap:40px}.about-art{min-height:300px}.about-copy h2{font-size:36px;letter-spacing:-1.5px}.section-heading{display:block}.section-heading h2{font-size:37px;letter-spacing:-1.7px}.section-heading p{font-size:12px}.catalog-tools{margin-top:15px;gap:15px}.filters{gap:2px}.filters button{padding:9px 10px;font-size:10px}.search{width:100%}.search input{width:100%}.catalog-meta{font-size:8px;line-height:1.7}.catalog-meta span:last-child{max-width:180px;text-align:right}.products{gap:28px 12px}.product h3{font-size:16px}.product p{font-size:11px}.product-links{flex-direction:column;align-items:start;gap:9px}.product-tag{font-size:8px}.editorial{grid-template-columns:1fr}.editorial-image img{height:470px}.editorial-copy{padding:60px 7% 75px}.editorial-copy h2{font-size:52px}.style-section{grid-template-columns:1fr;gap:25px}.style-section h2{font-size:43px;letter-spacing:-2px}.contact h2{font-size:46px;letter-spacing:-2px}.contact .actions{flex-direction:column;gap:15px}.contact-bottom{flex-direction:column;gap:22px;margin-top:40px}.location{grid-template-columns:1fr;gap:15px}.location h2{font-size:43px;letter-spacing:-2px}.location-info{padding-left:0;border-left:0}.footer-top{display:grid;grid-template-columns:1fr 1fr}.footer-top .logo{justify-self:start}.footer-bottom{flex-direction:column;line-height:1.7}.detail-layout{grid-template-columns:1fr}.detail-photo img{max-height:250px;object-fit:contain}.detail-copy{padding:25px}.detail-copy h2{font-size:30px}.detail-copy .eyebrow{margin-bottom:12px}dialog{max-height:90svh;overflow:auto}#info-dialog{padding:55px 25px 25px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js-reveal{opacity:1;transform:none}}
 @media(pointer:coarse){.product-links button,.filters button{min-height:44px}.close{width:44px;height:44px}.underlink{min-height:44px}.contact-bottom button{min-height:44px}}
+
+/* LOGO OFICIAL GINATO ÓTICA */
+
+.logo img.logo-img {
+  display: block;
+  width: 165px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .logo img.logo-img {
+    width: 125px;
+  }
+}
